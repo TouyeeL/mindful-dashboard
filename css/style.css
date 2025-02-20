@@ -1,3 +1,6 @@
+/* Install @import "https://unpkg.com/open-props";*/
+@import "https://unpkg.com/open-props";
+
 /* Diagnostic Styling */
 * {
   outline: 2px dotted gray;
@@ -6,6 +9,6 @@
 
 /* temp background color */
 body {
-    background: peachpuff;
+    background: var(--gradient-30);
   }
   
