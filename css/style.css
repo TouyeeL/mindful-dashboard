@@ -12,3 +12,7 @@ body {
     background: var(--gradient-30);
   }
   
+section:hover{
+  animation: var(--animation-fade-in);
+    background: var(--gradient-20);
+  }
