@@ -3,9 +3,18 @@
 
 * {
     font-family: 'Satoshi',  sans-serif;
+    font-weight: bold;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+  }
+  #background-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* Ensure the video is behind other content */
   }
   
   body {
@@ -14,6 +23,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
   }
   
   .bento-container {
@@ -26,7 +38,9 @@
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
     gap: 1rem;
-  
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    opacity: 50%;
     /* optional. fixed aspect ratio   */
     /*   aspect-ratio: 16/9; */
   }
@@ -40,12 +54,15 @@
     align-items: center;
     /* ui to indicate interaction */
     cursor: pointer;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    
   }
   
   .bento-item:hover {
     background: pink;
     scale: 1.06;
   }
+
   
   /* Featured items */
   .feature-1 {
