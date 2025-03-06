@@ -40,7 +40,6 @@
     gap: 1rem;
     box-shadow: 0 5px 8px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(5px);
-    opacity: 50%;
     /* optional. fixed aspect ratio   */
     /*   aspect-ratio: 16/9; */
   }
