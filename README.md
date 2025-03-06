@@ -11,3 +11,4 @@
 * [Normalize CSS](https://necolas.github.io/normalize.css/)
 * [Font Share](https://www.fontshare.com/?q=Satoshi)
 * [Open Props](https://open-props.style/)
+* [Lofi Background](https://www.youtube.com/watch?v=w0nzngqywYY)

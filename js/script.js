@@ -32,8 +32,8 @@ console.log( streak );
 const elemDayStreak = document.querySelector('.streakOfDays');
 elemDayStreak.textContent = streak;
 elemDayStreak.setAttribute("datetime", streak );   
-//video volume
+
 document.addEventListener('DOMContentLoaded', function() {
-    var video = document.getElementById('background-video');
-    video.volume = 0.2; // Set the volume to 20%
-  });
+      var video = document.getElementById('background-video');
+      video.volume = 0.2; // Set the volume to 20%
+    });
