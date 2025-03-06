@@ -21,8 +21,8 @@
     padding: 1rem;
   
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
     gap: 1rem;
   
     /* optional. fixed aspect ratio   */
@@ -42,13 +42,14 @@
   }
   
   .bento-item:hover {
-    background: orange;
+    background: pink;
+    scale: 1.06;
   }
   
   /* Featured items */
   .feature-1 {
-    grid-column: span 1;
-    grid-row: span 1;
+    grid-column: span 3;
+    grid-row: span 3;
     background: #fdf2f8;
   }
   
@@ -58,8 +59,17 @@
   }
   
   .feature-3 {
+    grid-row: span 3;
+    grid-column: span 3;
+    background: #b2c2d6;
+  }
+  .feature-4 {
     grid-row: span 1;
-    background: #eff6ff;
+    background: #b6e2ca;
+  }
+  .feature-5 {
+    grid-row: span 1;
+    background: #f1ecbe;
   }
   
   /* Responsive "tablet" size */
