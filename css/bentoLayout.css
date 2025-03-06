@@ -19,9 +19,8 @@
   
   .bento-container {
     background: linear-gradient(to bottom right,#fbc7d4, #9796f0 );
-    height: 100%;
-    width: 60%;
-    max-width: 600px;
+    width: 90%;
+    max-width: 500px;
     padding: 1rem;
     border-radius: 1rem;
     display: grid; 
