@@ -13,6 +13,22 @@ const elemAgeOfPerson = document.querySelector('.ageOfPerson');
 elemAgeOfPerson.textContent = ageOfPerson;
 elemAgeOfPerson.setAttribute("datetime", ageOfPerson );
 
-const daysUntilGrad = "2025-06-13";
-const gradDays = calculateDaysUntil( daysUntilGrad );
-console.log( daysUntilEvent );
+//Grad date
+const eventDate = "2025-06-13";
+const gradDays = getDaysUntilEvent( eventDate );
+console.log( gradDays );
+
+const elemDaysUntilGrad = document.querySelector('.daysUntilEvent');
+elemDaysUntilGrad.textContent = gradDays;
+elemDaysUntilGrad.setAttribute("datetime", gradDays );
+
+
+//Streak
+const startDate = "2025-01-06";
+
+const streak = getDayStreak( startDate );
+console.log( streak );  
+
+const elemDayStreak = document.querySelector('.streakOfDays');
+elemDayStreak.textContent = streak;
+elemDayStreak.setAttribute("datetime", streak );   

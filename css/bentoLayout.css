@@ -1,6 +1,8 @@
 /* reset */
 @import "https://unpkg.com/open-props";
+
 * {
+    font-family: 'Satoshi',  sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -36,7 +38,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-  
     /* ui to indicate interaction */
     cursor: pointer;
   }
